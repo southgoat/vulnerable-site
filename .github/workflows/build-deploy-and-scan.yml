@@ -45,7 +45,7 @@ jobs:
       - name: Run Dastardly Scan
         uses: PortSwigger/dastardly-github-action@main
         with:
-          target-url: 'https://vulnerable-site.azurewebsites.net/'
+          target-url: 'https://0a52008204e9635fc0b1bd4d002d0056.web-security-academy.net/'
 
       - name: Publish Dastardly Scan Report
         if: always()
